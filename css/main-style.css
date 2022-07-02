@@ -26,3 +26,81 @@
 .filter{
     filter: grayscale(100%);
 }
+
+.bg-dark{
+    background-color: #011931!important;
+}
+
+.bg-primary{
+    background-color: #0055ff!important;
+}
+
+.btn-primary {
+    background-color: #0055ff;
+    color: #fff;
+    border-color: #0055ff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #0044cc;
+    color: #fff;
+    border-color: #0044cc;
+}
+
+.border-top {
+    border-top: 2px solid #0055ff!important;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ffffff!important;
+}
+
+.link-blue{
+    color: #0055ff;
+}
+
+/*Privacity Page*/
+.priv{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/privacidad.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+/*Bussines Analitycs*/
+.ba{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bAnalitycs.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+/*Workshop*/
+.workshop{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/workshopP.jpg);
+    background-position: top; 
+    background-size: cover;
+}
+
+/*SoftwareSale*/
+.softSale{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/softSale.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+/*HardwareSale*/
+.hardSale{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hardSale.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+/*Scorecard*/
+.score{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/scorecard.jpg);
+    background-position: center; 
+    background-size: cover;
+}
