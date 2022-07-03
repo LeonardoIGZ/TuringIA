@@ -1,44 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    /*font-family: "Montserrat", sans-serif;*/
-    /*font-family: "Noto Sans", sans-serif;*/
-    font-family: "Open Sans", sans-serif;
-    /*font-family: "Poppins", sans-serif;*/
-    /*font-family: "Raleway", sans-serif;*/
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  /*font-family: "Montserrat", sans-serif;*/
+  /*font-family: "Noto Sans", sans-serif;*/
+  font-family: "Open Sans", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  /*font-family: "Raleway", sans-serif;*/
 }
 
 .carousel-item {
-    height: 36rem;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    background-size: cover;
-    background-position: center center;
+  height: 36rem;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-position: center center;
 }
 
-.navbar-brand{
-    font-size: 1.75rem!important;
+.navbar-brand {
+  font-size: 1.75rem !important;
 }
 
-.filter{
-    filter: grayscale(100%);
+.filter {
+  filter: grayscale(100%);
+}
+.filter:hover {
+    filter: grayscale(0%);
+  }
+
+.bg-dark {
+  background-color: #011931 !important;
 }
 
-.bg-dark{
-    background-color: #011931!important;
-}
-
-.bg-primary{
-    background-color: #0055ff!important;
+.bg-primary {
+  background-color: #0055ff !important;
 }
 
 .btn-primary {
-    background-color: #0055ff;
-    color: #fff;
-    border-color: #0055ff;
+  background-color: #0055ff;
+  color: #fff;
+  border-color: #0055ff;
 }
 
 .btn-primary:hover,
@@ -46,61 +49,123 @@
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
+  background-color: #0044cc;
+  color: #fff;
+  border-color: #0044cc;
+}
+
+.btn-outline-primary {
+    color: #0055ff;
+    border-color: #0055ff;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-primary:focus,
+  .btn-outline-primary:active,
+  .btn-outline-primary.active,
+  .open .dropdown-toggle.btn-outline-primary {
     background-color: #0044cc;
     color: #fff;
     border-color: #0044cc;
-}
+  }
 
 .border-top {
-    border-top: 2px solid #0055ff!important;
+  border-top: 2px solid #0055ff !important;
 }
 
 .border-bottom {
-    border-bottom: 2px solid #ffffff!important;
+  border-bottom: 2px solid #ffffff !important;
 }
 
-.link-blue{
-    color: #0055ff;
+.link-blue {
+  color: #0055ff;
 }
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+/*Index Page*/
+.ind {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/allan-francis-OuLdpY3y0d4-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.bg-lightblue {
+    background-color: #d3e0ef;
+    color: #011931;
+  }
 
 /*Privacity Page*/
-.priv{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/privacidad.jpg);
-    background-position: center; 
-    background-size: cover;
+.priv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/privacidad.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*Bussines Analitycs*/
-.ba{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bAnalitycs.jpg);
-    background-position: center; 
-    background-size: cover;
+.ba {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/bAnalitycs.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*Workshop*/
-.workshop{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/workshopP.jpg);
-    background-position: top; 
-    background-size: cover;
+.workshop {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/workshopP.jpg);
+  background-position: top;
+  background-size: cover;
 }
 
 /*SoftwareSale*/
-.softSale{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/softSale.jpg);
-    background-position: center; 
-    background-size: cover;
+.softSale {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/softSale.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*HardwareSale*/
-.hardSale{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hardSale.jpg);
-    background-position: center; 
-    background-size: cover;
+.hardSale {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hardSale.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*Scorecard*/
-.score{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/scorecard.jpg);
-    background-position: center; 
-    background-size: cover;
+.score {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/scorecard.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/*Training*/
+.capacitacion {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/capacitacion1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-gray {
+  background-color: #a7a9ac;
+  color: #011931;
+}
+
+/*SoftDev*/
+
+.softDev {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/SoftDev.jpg);
+  background-position: center;
+  background-size: cover;
 }

@@ -11,9 +11,8 @@
 </head>
 
 <body>
-    <header
-        style="background-image: url(images/allan-francis-OuLdpY3y0d4-unsplash.jpg); background-position: top; background-size: cover;">
-        <nav class="navbar navbar-dark navbar-expand-lg fs-5 py-5">
+    <header class="ind">
+        <nav class=" navbar navbar-dark navbar-expand-lg fs-5 py-5">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#">TURING-IA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,13 +31,13 @@
                                 Servicios
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Bussines Analyst</a></li>
-                                <li><a class="dropdown-item" href="#">Workshop</a></li>
-                                <li><a class="dropdown-item" href="#">Capacitación</a></li>
-                                <li><a class="dropdown-item" href="#">Venta de Software</a></li>
-                                <li><a class="dropdown-item" href="#">Hardware</a></li>
-                                <li><a class="dropdown-item" href="#">Desarrollo de Software</a></li>
-                                <li><a class="dropdown-item" href="#">Balanced Scorecard</a></li>
+                                <li><a class="dropdown-item" href="/servicios/bussinesAnalyst.html">Bussines Analyst</a></li>
+                                <li><a class="dropdown-item" href="/servicios/workshop.html">Workshop</a></li>
+                                <li><a class="dropdown-item" href="/servicios/capacitacion.html">Capacitación</a></li>
+                                <li><a class="dropdown-item" href="/servicios/ventaSoftware.html">Venta de Software</a></li>
+                                <li><a class="dropdown-item" href="/servicios/ventaHardware.html">Hardware</a></li>
+                                <li><a class="dropdown-item" href="/servicios/desarrolloAplicaciones.html">Desarrollo de Software</a></li>
+                                <li><a class="dropdown-item" href="/servicios/balancedScorecard.html">Balanced Scorecard</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -65,7 +64,7 @@
 
         <div class="container col-xxl-8 py-5">
             <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-lg-4 text-light">
+                <div class="col-lg-6 text-light">
                     <h1 class="display-4 fw-bold lh-1 mb-3">Bienvenido</h1>
                     <p class="lead">Hacemos los datos fáciles de usar.</p>
                 </div>
@@ -79,37 +78,46 @@
             <p class="display-5 fw-bold mt-3">
                 Contribuimos con su empresa para mejorar la toma de decisiones a través de sus datos.
             </p>
-            <a href="" class="btn btn-outline-primary">Más información</a>
+            <a href="" class="btn btn-outline-primary text-left">Más información</a>
         </section>
 
-        <section id="whatDo" class="container py-5">
-            <h4 class="text-primary">La manera ideal de manejar tus datos</h4>
-            <p class="lead mt-3">
-                Somos una empresa Consultora de Big Data en México, desde hace 13 años proporcionamos servicios en
-                Business Analytics mediante Knowledge Discovery in Database (KDD).
-            </p>
+        <section id="whatDo" class="bg-lightblue">
+            <div class="container py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/Digitalpresentatio-bro.png" class="d-block mx-lg-auto img-fluid"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">La manera ideal de manejar tus datos</h1>
+                        <p class="lead">Somos una empresa Consultora de Big Data en México, desde hace 13 años
+                            proporcionamos servicios en
+                            Business Analytics mediante Knowledge Discovery in Database (KDD).</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="whatDo" class="py-5 bg-primary">
-            <h4 class="text-light container">Tecnologías que usamos</h4>
-            <div class=" container d-flex  align-items-center">
-                <div class="d-flex flex-column">
-                    <img src="images/tecnoly-tableau.png" class="img-fluid filter" alt="">
+            <h4 class="text-light container lh-1 text-center">Tecnologías que usamos</h4>
+            <div class="my-4 row">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="images/tecnoly-tableauSmall.png" class="filter w-50" alt="">
                 </div>
-                <div class="d-flex flex-column">
-                    <img src="images/salesforce.png" class="img-fluid filter" alt="">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="images/salesforceSmall.png" class="filter w-50" alt="">
                 </div>
-                <div class="d-flex flex-column">
-                    <img src="images/pmi2.png" class="img-fluid filter" alt="">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="images/pmi2Small.png" class="filter w-50" alt="">
                 </div>
-                <div class="d-flex flex-column">
-                    <img src="images/scrum.png" class="img-fluid filter" alt="">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="images/scrumSmall.png" class="filter w-50" alt="">
                 </div>
             </div>
         </section>
 
         <section id="whatDo" class="container py-5">
-            <h4 class="text-primary">Lo que ofrecemos</h4>
+            <h2 class="text-primary mb-5 lh-1">Lo que ofrecemos</h2>
             <div id="carousel" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
@@ -122,45 +130,46 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/BA.jpg" class="d-block w-100 im" alt="...">
+                        <img src="images/BA.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="display-6 lh-1 fw-bold">Implementación de proyectos (Business Analyst)</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h3 class="display-6 lh-1 fw-bold">Implementación de proyectos</h3>
+                            <h1 class="display-6 lh-1 fw-bold">(Business Analyst)</h1>
+                            <p><a href="servicios/bussinesAnalyst.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/softDev1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="display-6 lh-1 fw-bold">Desarrollo de aplicaciones</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <p><a href="servicios/desarrolloAplicaciones.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/workshop.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="display-6 lh-1 fw-bold">Workshop (Blue Print)</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p><a href="servicios/workshop.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cap.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="display-6 lh-1 fw-bold">Capacitación</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p><a href="servicios/capacitacion.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/ventasof.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="display-6 lh-1 fw-bold">Venta de software</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p><a href="servicios/ventaSoftware.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/hardware.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="display-6 lh-1 fw-bold">Venta de hardware</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p><a href="servicios/ventaHardware.html" class="btn btn-primary text-left">Más información</a></p>
                         </div>
                     </div>
                 </div>
@@ -169,28 +178,51 @@
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" style="color: #0055FF!important;"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden" style="color: #0055FF!important;">Next</span>
                 </button>
             </div>
         </section>
 
-        <section id="whatDo" class="container py-5">
-            <h4 class="text-primary">Historias de clientes</h4>
-            <p class="lead mt-3">
-                Somos una empresa Consultora de Big Data en México, desde hace 13 años proporcionamos servicios en
-                Business Analytics mediante Knowledge Discovery in Database (KDD).
-            </p>
-        </section>
+        <section class="container py-5">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="text-primary mb-5 lh-1">HIstoria de clientes</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pb-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('unsplash-photo-1.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Grupo Petersen crea una cultura de datos con
+                                    Tableau</h4>
+                            </div>
+                        </div>
+                    </div>
 
-        <section id="whatDo" class="container py-5">
-            <h4 class="text-primary">Contactanos</h4>
-            <p class="lead mt-3">
-                Somos una empresa Consultora de Big Data en México, desde hace 13 años proporcionamos servicios en
-                Business Analytics mediante Knowledge Discovery in Database (KDD).
-            </p>
-        </section>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('unsplash-photo-2.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Verizon usa Tableau para reducir las llamadas de
+                                    soporte en un 43 % y así mejorar la experiencia del
+                                    cliente</h4>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('unsplash-photo-3.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Whole Foods Market democratiza el acceso a los
+                                    datos en sus 460 tiendas para 18 000 empleados
+                                    gracias a Tableau</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="px-5 pt-5 pb-1 bg-dark text-light">
         <div class="row">
@@ -223,14 +255,15 @@
                 <h5 class="fw-bold mb-2">Nuestros servicios</h5>
                 <div class="fw-bold border-bottom mb-2"></div>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="servicios/bussinesAnalyst.html" class="nav-link p-0 text-light">Implementación de Proyectos (Bussines Analyst)</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Workshop (Blue Print)</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Capacitación</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Venta de Software</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Venta de Hardware</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Desarrollo de Aplicaciones</a>
+                    <li class="nav-item mb-2"><a href="servicios/bussinesAnalyst.html"
+                            class="nav-link p-0 text-light">Implementación de Proyectos (Bussines Analyst)</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/workshop.html" class="nav-link p-0 text-light">Workshop (Blue Print)</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/capacitacion.html" class="nav-link p-0 text-light">Capacitación</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/ventaSoftware.html" class="nav-link p-0 text-light">Venta de Software</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/ventaHardware.htm" class="nav-link p-0 text-light">Venta de Hardware</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/desarrolloAplicaciones.html" class="nav-link p-0 text-light">Desarrollo de Aplicaciones</a>
                     </li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Balanced Scorecard</a></li>
+                    <li class="nav-item mb-2"><a href="servicios/balancedScorecard.html" class="nav-link p-0 text-light">Balanced Scorecard</a></li>
                 </ul>
             </div>
 
@@ -244,7 +277,8 @@
                     </div>
                 </form>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="privacidad.html" class="nav-link p-0 text-light">Aviso de privacidad</a></li>
+                    <li class="nav-item mb-2"><a href="privacidad.html" class="nav-link p-0 text-light">Aviso de
+                            privacidad</a></li>
                 </ul>
             </div>
         </div>
